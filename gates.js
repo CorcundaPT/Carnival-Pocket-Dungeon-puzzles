@@ -6,9 +6,9 @@ function bluegate() {
     var gates = document.getElementById("mapview").classList;
     //switch image
     if (gates.contains("blueon")) {
-        bluelever.src = "./source/lever_blueoff.png";
+        bluelever.src = "./source/blindmaze/lever_blueoff.png";
     } else {
-        bluelever.src = "./source/lever_blueon.png";
+        bluelever.src = "./source/blindmaze/lever_blueon.png";
     };
     //toggle blue gate
     gates.toggle("blueoff");
@@ -24,9 +24,9 @@ function greengate() {
     var gates = document.getElementById("mapview").classList;
     //switch image
     if (gates.contains("greenon")) {
-        greenlever.src = "./source/lever_greenoff.png";
+        greenlever.src = "./source/blindmaze/lever_greenoff.png";
     } else {
-        greenlever.src = "./source/lever_greenon.png";
+        greenlever.src = "./source/blindmaze/lever_greenon.png";
     };
     //toggle blue gate
     gates.toggle("greenoff");
@@ -42,9 +42,9 @@ function redgate() {
     var gates = document.getElementById("mapview").classList;
     //switch image
     if (gates.contains("redon")) {
-        redlever.src = "./source/lever_redoff.png";
+        redlever.src = "./source/blindmaze/lever_redoff.png";
     } else {
-        redlever.src = "./source/lever_redon.png";
+        redlever.src = "./source/blindmaze/lever_redon.png";
     };
     //toggle blue gate
     gates.toggle("redoff");

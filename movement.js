@@ -259,7 +259,7 @@ function visibleleverandgates(targetroom) {
     var currentposition = document.getElementById("mapview");
     switch (targetroom){
         case "A2":
-            mapimage.src = "./source/maze_A2.jpg";
+            mapimage.src = "./source/blindmaze/maze_A2.jpg";
             currentposition.setAttribute("name", "A2");
             console.log("go to A2");
             //lever visible
@@ -272,7 +272,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "A3":
-            mapimage.src = "./source/maze_A3.jpg";
+            mapimage.src = "./source/blindmaze/maze_A3.jpg";
             currentposition.setAttribute("name", "A3");
             console.log("go to A3");
             //lever visible
@@ -288,7 +288,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "A4":
-            mapimage.src = "./source/maze_A4.jpg";
+            mapimage.src = "./source/blindmaze/maze_A4.jpg";
             currentposition.setAttribute("name", "A4");
             console.log("go to A4");
             //lever visible
@@ -306,7 +306,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "A5":
-            mapimage.src = "./source/maze_A5.jpg";
+            mapimage.src = "./source/blindmaze/maze_A5.jpg";
             currentposition.setAttribute("name", "A5");
             console.log("go to A5");
             //lever visible
@@ -319,7 +319,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "B2":
-            mapimage.src = "./source/maze_B2.jpg";
+            mapimage.src = "./source/blindmaze/maze_B2.jpg";
             currentposition.setAttribute("name", "B2");
             console.log("go to B2");
             //lever visible
@@ -337,7 +337,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "B3":
-            mapimage.src = "./source/maze_B3.jpg";
+            mapimage.src = "./source/blindmaze/maze_B3.jpg";
             currentposition.setAttribute("name", "B3");
             console.log("go to B3");
             //lever visible
@@ -356,7 +356,7 @@ function visibleleverandgates(targetroom) {
             
             break;
         case "B4":
-            mapimage.src = "./source/maze_B4.jpg";
+            mapimage.src = "./source/blindmaze/maze_B4.jpg";
             currentposition.setAttribute("name", "B4");
             console.log("go to B4");
             //lever visible
@@ -374,7 +374,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "B5":
-            mapimage.src = "./source/maze_B5.jpg";
+            mapimage.src = "./source/blindmaze/maze_B5.jpg";
             currentposition.setAttribute("name", "B5");
             console.log("go to B5");
             //lever visible
@@ -392,7 +392,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "B6":
-            mapimage.src = "./source/maze_B6.jpg";
+            mapimage.src = "./source/blindmaze/maze_B6.jpg";
             currentposition.setAttribute("name", "B6");
             console.log("go to B6");
             //lever visible
@@ -405,7 +405,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "C1":
-            mapimage.src = "./source/maze_C1.jpg";
+            mapimage.src = "./source/blindmaze/maze_C1.jpg";
             currentposition.setAttribute("name", "C1");
             console.log("go to C1");
             //lever visible
@@ -423,7 +423,7 @@ function visibleleverandgates(targetroom) {
             }
             break;
         case "C2":
-            mapimage.src = "./source/maze_C2.jpg";
+            mapimage.src = "./source/blindmaze/maze_C2.jpg";
             currentposition.setAttribute("name", "C2");
             console.log("go to C2");
             //lever visible
@@ -441,7 +441,7 @@ function visibleleverandgates(targetroom) {
             }
             break;
         case "C3":
-            mapimage.src = "./source/maze_C3.jpg";
+            mapimage.src = "./source/blindmaze/maze_C3.jpg";
             currentposition.setAttribute("name", "C3");
             console.log("go to C3");
             //lever visible
@@ -454,7 +454,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "C4":
-            mapimage.src = "./source/maze_C4.jpg";
+            mapimage.src = "./source/blindmaze/maze_C4.jpg";
             currentposition.setAttribute("name", "C4");
             console.log("go to C4");
             //lever visible
@@ -467,7 +467,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "C5":
-            mapimage.src = "./source/maze_C5.jpg";
+            mapimage.src = "./source/blindmaze/maze_C5.jpg";
             currentposition.setAttribute("name", "C5");
             console.log("go to C5");
             //lever visible
@@ -480,7 +480,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "D2":
-            mapimage.src = "./source/maze_D2.jpg";
+            mapimage.src = "./source/blindmaze/maze_D2.jpg";
             currentposition.setAttribute("name", "D2");
             console.log("go to D2");
             //lever visible
@@ -498,7 +498,7 @@ function visibleleverandgates(targetroom) {
             }
             break;
         case "D3":
-            mapimage.src = "./source/maze_D3.jpg";
+            mapimage.src = "./source/blindmaze/maze_D3.jpg";
             currentposition.setAttribute("name", "D3");
             console.log("go to D3");
             //lever visible
@@ -516,7 +516,7 @@ function visibleleverandgates(targetroom) {
             }
             break;
         case "D4":
-            mapimage.src = "./source/maze_D4.jpg";
+            mapimage.src = "./source/blindmaze/maze_D4.jpg";
             currentposition.setAttribute("name", "D4");
             console.log("go to D4");
             //lever visible
@@ -537,7 +537,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "D5":
-            mapimage.src = "./source/maze_D5.jpg";
+            mapimage.src = "./source/blindmaze/maze_D5.jpg";
             currentposition.setAttribute("name", "D5");
             console.log("go to D5");
             //lever visible
@@ -555,7 +555,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "E2":
-            mapimage.src = "./source/maze_E2.jpg";
+            mapimage.src = "./source/blindmaze/maze_E2.jpg";
             currentposition.setAttribute("name", "E2");
             console.log("go to E2");
             //lever visible
@@ -568,7 +568,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "E3":
-            mapimage.src = "./source/maze_E3.jpg";
+            mapimage.src = "./source/blindmaze/maze_E3.jpg";
             currentposition.setAttribute("name", "E3");
             console.log("go to E3");
             //lever visible
@@ -581,7 +581,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "E4":
-            mapimage.src = "./source/maze_E4.jpg";
+            mapimage.src = "./source/blindmaze/maze_E4.jpg";
             currentposition.setAttribute("name", "E4");
             console.log("go to E4");
             //lever visible
@@ -604,7 +604,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("redgate").style.display="none";
             break;
         case "E5":
-            mapimage.src = "./source/maze_E5.jpg";
+            mapimage.src = "./source/blindmaze/maze_E5.jpg";
             currentposition.setAttribute("name", "E5");
             console.log("go to E5");
             //lever visible
