@@ -364,7 +364,7 @@ function visibleleverandgates(targetroom) {
             document.getElementById("greenlever").style.display="none";
             document.getElementById("redlever").style.display="none";
             //gates visible
-            if (gates.contains("bluenon")) {
+            if (gates.contains("blueon")) {
                 document.getElementById("bluegate").style.display="block";
                 document.getElementById("bluegate").style.transform="rotate(0deg)";
             } else {
